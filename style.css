@@ -50,11 +50,11 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 /* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
 
 .float-right {
-    color: darkorchid;
+    background-color: darkorchid;
 }
 
 /* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
-.blog-pagination a:nth-child(2){
+nav.blog-pagination a:nth-child(2){
     background-color: rgb(172, 14, 14);
     color: white;
 }

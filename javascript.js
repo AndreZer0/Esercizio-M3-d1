@@ -1,7 +1,7 @@
 /* // EXTRA Crea con JavaScript la funzionalità per rimuovere il link "twitter" sotto alla sezione "Altro" nell'elemento "aside". Deve avvenire al caricamento della pagina, automticamente. */
 
 window.onload=function(){ 
-    document.querySelector(`.col-md-4 div:last-child li:nth-of-type(2)`).remove()
+    document.querySelector(`aside div:last-child li:nth-of-type(2)`).remove()
 }
 //Creo una funzione che al caricamento della pagina (onload), elimina il secondo elemento della lista all'interno dell'ultimo div del container con id col-md-4, in questo caso Twitter. Se avessi messo li:nth-of-type(1), sarebbe sparito GitHub. Con li:nth-of-type(3), sarebbe sparito Facebook.
 
