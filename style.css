@@ -55,7 +55,8 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 
 /* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
 .blog-pagination a:nth-child(2){
-    background-color: rgb(30, 255, 75);
+    background-color: rgb(172, 14, 14);
+    color: white;
 }
 
 /* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
