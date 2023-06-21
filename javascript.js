@@ -7,8 +7,8 @@ window.onload=function(){
 
 // EXTRA Crea con JavaScript la funzionalità per rimuovere il corrispondente elemento padre dal DOM cliccando sul link "Continua a leggere".
 
-for (let link of document.querySelectorAll(".stretched-link")) 
-link.onclick = function (e) {
+for (let obj of document.querySelectorAll(".stretched-link")) 
+obj.onclick = function (e) {
     e.target.closest(".col-md-6").remove();
 }
 //In questo modo ogni volta che clicco sul link ''continua a leggere''(target), la funzione mi va a prendere l'elemento più vicino che corrisponde a id(.col-md-6) e applica il remove, eliminando il parent dell'ancora stessa.
