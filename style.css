@@ -17,7 +17,7 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 }
 
 /* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
-.col-md-8 div:first-of-type{
+.blog-post:first-of-type {
     background-color: rgb(198, 245, 121);
 }
 
