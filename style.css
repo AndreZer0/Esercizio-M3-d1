@@ -5,7 +5,7 @@ h1{
 }
 
 /* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
-.nav{
+.nav span{
     background-color: rgb(56, 207, 14);
     color: white;
 }
