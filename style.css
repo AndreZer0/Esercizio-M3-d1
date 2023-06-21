@@ -12,7 +12,7 @@
 /* 
 ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
 
-.font-weight-bold {
+.jumbotron .font-weight-bold {
     text-decoration: underline red 2px;
 }
 
