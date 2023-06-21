@@ -15,8 +15,8 @@ obj.onclick = function (e) {
 
 // EXTRA Crea con JavaScript la funzionalità per creare un alert col nome dell'autore ogni volta che il cursore passa sopra l'autore del post.
 
-for (let author of document.querySelectorAll(".blog-post-meta a"))
-author.addEventListener("mouseover", function (appears) {
+for (let autorePost of document.querySelectorAll(".blog-post-meta a"))
+autorePost.addEventListener("mouseover", function (appears) {
     alert(appears.target.innerText);
 });
 //In questo modo creo un evento che funziona con ''mouseover'', cioè ogni volta che passo il mouse sull'elemento da me selezionato, in questo caso author, la funzione (appears)  fa comparire un alert col nome dell'autore su cui ho passato il cursore. 
