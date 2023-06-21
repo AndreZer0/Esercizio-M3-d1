@@ -6,7 +6,7 @@
 
 /* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
 .nav span{
-    background-color: rgb(56, 207, 14);
+    background-color: rgb(143, 245, 115);
     color: white;
 }
 /* 
@@ -32,8 +32,8 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 }
 
 /* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
-.mb-0 li {
-   background-color: rgb(241, 200, 171);
+.p-4:nth li{
+   background-color: rgb(171, 241, 225);
     
 }
 
@@ -43,7 +43,7 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 }
 
 /* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
-.col-md-8 :nth-child(4) ul :nth-child(2){
+.blog-post:nth-of-type(3) ul li:nth-child(2){
     text-decoration:underline red;
 }
 
