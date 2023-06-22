@@ -50,6 +50,7 @@ ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del 
 /* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
 
 .float-right {
+   
     background-color: darkorchid;
 }
 
